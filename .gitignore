@@ -1,0 +1,31 @@
+# Data (don't commit raw datasets)
+data/*.zip
+data/*.tar.gz
+data/raw/
+data/processed/
+
+# Index files (large binaries)
+*.faiss
+*.pkl
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.eggs/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
